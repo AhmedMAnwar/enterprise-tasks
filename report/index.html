@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-regression_suite">
+              <span class="suite-name border-passed">regression suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-regression_suite">
+                    <span>regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-regression_suite">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-regression_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-regression_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-regression_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-regression_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-regression_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-regression_suite" class="hide-methods passed suite-regression_suite"> (hide)</a> <!-- hide-methods passed suite-regression_suite -->
+                      <a href="#" panel-name="suite-regression_suite" class="show-methods passed suite-regression_suite"> (show)</a> <!-- show-methods passed suite-regression_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-regression_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CompanyTest" hash-for-method="isCompanyUrlLoaded">isCompanyUrlLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CompanyTest" hash-for-method="isCompanyUrlLoaded">isCompanyUrlLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CompanyTest" hash-for-method="isFacebookUrlLoaded">isFacebookUrlLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CompanyTest" hash-for-method="isFacebookUrlLoaded">isFacebookUrlLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="isJobMainSectionsLoaded">isJobMainSectionsLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="isJobMainSectionsLoaded">isJobMainSectionsLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="isJoinUsUrlLoaded">isJoinUsUrlLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="isJoinUsUrlLoaded">isJoinUsUrlLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CompanyTest" hash-for-method="isLeadershipSectionExist">isLeadershipSectionExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CompanyTest" hash-for-method="isLeadershipSectionExist">isLeadershipSectionExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CompanyTest" hash-for-method="isMusalaProfileImageExist">isMusalaProfileImageExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CompanyTest" hash-for-method="isMusalaProfileImageExist">isMusalaProfileImageExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="DisplayPostionInfoTest" hash-for-method="printSkopjeLocationPositions">printSkopjeLocationPositions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="DisplayPostionInfoTest" hash-for-method="printSkopjeLocationPositions">printSkopjeLocationPositions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="DisplayPostionInfoTest" hash-for-method="printSofiaLocationPositions">printSofiaLocationPositions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="DisplayPostionInfoTest" hash-for-method="printSofiaLocationPositions">printSofiaLocationPositions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="testApplicationFormValidation(test1, test@gmail, , src/test/resources/dummyfile, )">testApplicationFormValidation(test1, test@gmail, , src/test/resources/dummyfile, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="testApplicationFormValidation(test1, test@, 00201067721442, , test)">testApplicationFormValidation(test1, test@, 00201067721442, , test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="testApplicationFormValidation(test1, test.com, 00201067721442, src/test/resources/dummyfile, test)">testApplicationFormValidation(test1, test.com, 00201067721442, src/test/resources/dummyfile, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="testApplicationFormValidation(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test)">testApplicationFormValidation(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="testApplicationFormValidation(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:)">testApplicationFormValidation(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="testApplicationFormValidation(test1, test.com, 00201067721442, src/test/resources/dummyfile, test)">testApplicationFormValidation(test1, test.com, 00201067721442, src/test/resources/dummyfile, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="testApplicationFormValidation(test1, test@, 00201067721442, , test)">testApplicationFormValidation(test1, test@, 00201067721442, , test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="testApplicationFormValidation(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:)">testApplicationFormValidation(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="testApplicationFormValidation(test1, test@gmail, , src/test/resources/dummyfile, )">testApplicationFormValidation(test1, test@gmail, , src/test/resources/dummyfile, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="CareersTest" hash-for-method="testApplicationFormValidation(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test)">testApplicationFormValidation(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="ContactUsFormTest" hash-for-method="testInvalidEmailAddress(test1, test, 00201067721442, test, test)">testInvalidEmailAddress(test1, test, 00201067721442, test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="ContactUsFormTest" hash-for-method="testInvalidEmailAddress(test1, test@gmail, 00201067721442, test, test)">testInvalidEmailAddress(test1, test@gmail, 00201067721442, test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="ContactUsFormTest" hash-for-method="testInvalidEmailAddress(test1, test@, 00201067721442, test, test)">testInvalidEmailAddress(test1, test@, 00201067721442, test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="ContactUsFormTest" hash-for-method="testInvalidEmailAddress(test1, test.com, 00201067721442, test, test)">testInvalidEmailAddress(test1, test.com, 00201067721442, test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="ContactUsFormTest" hash-for-method="testInvalidEmailAddress(test1, test@/gamil.com, 00201067721442, test, test)">testInvalidEmailAddress(test1, test@/gamil.com, 00201067721442, test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="ContactUsFormTest" hash-for-method="testInvalidEmailAddress(test1, test@gmail, 00201067721442, test, test)">testInvalidEmailAddress(test1, test@gmail, 00201067721442, test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="ContactUsFormTest" hash-for-method="testInvalidEmailAddress(test1, test.com, 00201067721442, test, test)">testInvalidEmailAddress(test1, test.com, 00201067721442, test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="ContactUsFormTest" hash-for-method="testInvalidEmailAddress(test1, test@/gamil.com, 00201067721442, test, test)">testInvalidEmailAddress(test1, test@/gamil.com, 00201067721442, test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="ContactUsFormTest" hash-for-method="testInvalidEmailAddress(test1, test@, 00201067721442, test, test)">testInvalidEmailAddress(test1, test@, 00201067721442, test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regression_suite" title="ContactUsFormTest" hash-for-method="testInvalidEmailAddress(test1, test, 00201067721442, test, test)">testInvalidEmailAddress(test1, test, 00201067721442, test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-regression_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-regression_suite" class="panel regression_suite">
+          <div class="suite-regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DisplayPostionInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printSkopjeLocationPositions">
+                  </a> <!-- printSkopjeLocationPositions -->
+                  <span class="method-name">printSkopjeLocationPositions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printSkopjeLocationPositions">
+                  </a> <!-- printSkopjeLocationPositions -->
+                  <span class="method-name">printSkopjeLocationPositions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printSofiaLocationPositions">
+                  </a> <!-- printSofiaLocationPositions -->
+                  <span class="method-name">printSofiaLocationPositions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printSofiaLocationPositions">
+                  </a> <!-- printSofiaLocationPositions -->
+                  <span class="method-name">printSofiaLocationPositions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-regression_suite-class-passed -->
+          <div class="suite-regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CompanyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isCompanyUrlLoaded">
+                  </a> <!-- isCompanyUrlLoaded -->
+                  <span class="method-name">isCompanyUrlLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isCompanyUrlLoaded">
+                  </a> <!-- isCompanyUrlLoaded -->
+                  <span class="method-name">isCompanyUrlLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isFacebookUrlLoaded">
+                  </a> <!-- isFacebookUrlLoaded -->
+                  <span class="method-name">isFacebookUrlLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isFacebookUrlLoaded">
+                  </a> <!-- isFacebookUrlLoaded -->
+                  <span class="method-name">isFacebookUrlLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isLeadershipSectionExist">
+                  </a> <!-- isLeadershipSectionExist -->
+                  <span class="method-name">isLeadershipSectionExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isLeadershipSectionExist">
+                  </a> <!-- isLeadershipSectionExist -->
+                  <span class="method-name">isLeadershipSectionExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isMusalaProfileImageExist">
+                  </a> <!-- isMusalaProfileImageExist -->
+                  <span class="method-name">isMusalaProfileImageExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isMusalaProfileImageExist">
+                  </a> <!-- isMusalaProfileImageExist -->
+                  <span class="method-name">isMusalaProfileImageExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-regression_suite-class-passed -->
+          <div class="suite-regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ContactUsFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailAddress(test1, test, 00201067721442, test, test)">
+                  </a> <!-- testInvalidEmailAddress(test1, test, 00201067721442, test, test) -->
+                  <span class="method-name">testInvalidEmailAddress</span>
+                  <span class="parameters">(test1, test, 00201067721442, test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailAddress(test1, test@gmail, 00201067721442, test, test)">
+                  </a> <!-- testInvalidEmailAddress(test1, test@gmail, 00201067721442, test, test) -->
+                  <span class="method-name">testInvalidEmailAddress</span>
+                  <span class="parameters">(test1, test@gmail, 00201067721442, test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailAddress(test1, test@, 00201067721442, test, test)">
+                  </a> <!-- testInvalidEmailAddress(test1, test@, 00201067721442, test, test) -->
+                  <span class="method-name">testInvalidEmailAddress</span>
+                  <span class="parameters">(test1, test@, 00201067721442, test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailAddress(test1, test.com, 00201067721442, test, test)">
+                  </a> <!-- testInvalidEmailAddress(test1, test.com, 00201067721442, test, test) -->
+                  <span class="method-name">testInvalidEmailAddress</span>
+                  <span class="parameters">(test1, test.com, 00201067721442, test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailAddress(test1, test@/gamil.com, 00201067721442, test, test)">
+                  </a> <!-- testInvalidEmailAddress(test1, test@/gamil.com, 00201067721442, test, test) -->
+                  <span class="method-name">testInvalidEmailAddress</span>
+                  <span class="parameters">(test1, test@/gamil.com, 00201067721442, test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailAddress(test1, test@gmail, 00201067721442, test, test)">
+                  </a> <!-- testInvalidEmailAddress(test1, test@gmail, 00201067721442, test, test) -->
+                  <span class="method-name">testInvalidEmailAddress</span>
+                  <span class="parameters">(test1, test@gmail, 00201067721442, test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailAddress(test1, test.com, 00201067721442, test, test)">
+                  </a> <!-- testInvalidEmailAddress(test1, test.com, 00201067721442, test, test) -->
+                  <span class="method-name">testInvalidEmailAddress</span>
+                  <span class="parameters">(test1, test.com, 00201067721442, test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailAddress(test1, test@/gamil.com, 00201067721442, test, test)">
+                  </a> <!-- testInvalidEmailAddress(test1, test@/gamil.com, 00201067721442, test, test) -->
+                  <span class="method-name">testInvalidEmailAddress</span>
+                  <span class="parameters">(test1, test@/gamil.com, 00201067721442, test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailAddress(test1, test@, 00201067721442, test, test)">
+                  </a> <!-- testInvalidEmailAddress(test1, test@, 00201067721442, test, test) -->
+                  <span class="method-name">testInvalidEmailAddress</span>
+                  <span class="parameters">(test1, test@, 00201067721442, test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmailAddress(test1, test, 00201067721442, test, test)">
+                  </a> <!-- testInvalidEmailAddress(test1, test, 00201067721442, test, test) -->
+                  <span class="method-name">testInvalidEmailAddress</span>
+                  <span class="parameters">(test1, test, 00201067721442, test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-regression_suite-class-passed -->
+          <div class="suite-regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CareersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isJobMainSectionsLoaded">
+                  </a> <!-- isJobMainSectionsLoaded -->
+                  <span class="method-name">isJobMainSectionsLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isJobMainSectionsLoaded">
+                  </a> <!-- isJobMainSectionsLoaded -->
+                  <span class="method-name">isJobMainSectionsLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isJoinUsUrlLoaded">
+                  </a> <!-- isJoinUsUrlLoaded -->
+                  <span class="method-name">isJoinUsUrlLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isJoinUsUrlLoaded">
+                  </a> <!-- isJoinUsUrlLoaded -->
+                  <span class="method-name">isJoinUsUrlLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplicationFormValidation(test1, test@gmail, , src/test/resources/dummyfile, )">
+                  </a> <!-- testApplicationFormValidation(test1, test@gmail, , src/test/resources/dummyfile, ) -->
+                  <span class="method-name">testApplicationFormValidation</span>
+                  <span class="parameters">(test1, test@gmail, , src/test/resources/dummyfile, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplicationFormValidation(test1, test@, 00201067721442, , test)">
+                  </a> <!-- testApplicationFormValidation(test1, test@, 00201067721442, , test) -->
+                  <span class="method-name">testApplicationFormValidation</span>
+                  <span class="parameters">(test1, test@, 00201067721442, , test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplicationFormValidation(test1, test.com, 00201067721442, src/test/resources/dummyfile, test)">
+                  </a> <!-- testApplicationFormValidation(test1, test.com, 00201067721442, src/test/resources/dummyfile, test) -->
+                  <span class="method-name">testApplicationFormValidation</span>
+                  <span class="parameters">(test1, test.com, 00201067721442, src/test/resources/dummyfile, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplicationFormValidation(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test)">
+                  </a> <!-- testApplicationFormValidation(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test) -->
+                  <span class="method-name">testApplicationFormValidation</span>
+                  <span class="parameters">(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplicationFormValidation(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:)">
+                  </a> <!-- testApplicationFormValidation(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:) -->
+                  <span class="method-name">testApplicationFormValidation</span>
+                  <span class="parameters">(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplicationFormValidation(test1, test.com, 00201067721442, src/test/resources/dummyfile, test)">
+                  </a> <!-- testApplicationFormValidation(test1, test.com, 00201067721442, src/test/resources/dummyfile, test) -->
+                  <span class="method-name">testApplicationFormValidation</span>
+                  <span class="parameters">(test1, test.com, 00201067721442, src/test/resources/dummyfile, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplicationFormValidation(test1, test@, 00201067721442, , test)">
+                  </a> <!-- testApplicationFormValidation(test1, test@, 00201067721442, , test) -->
+                  <span class="method-name">testApplicationFormValidation</span>
+                  <span class="parameters">(test1, test@, 00201067721442, , test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplicationFormValidation(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:)">
+                  </a> <!-- testApplicationFormValidation(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:) -->
+                  <span class="method-name">testApplicationFormValidation</span>
+                  <span class="parameters">(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplicationFormValidation(test1, test@gmail, , src/test/resources/dummyfile, )">
+                  </a> <!-- testApplicationFormValidation(test1, test@gmail, , src/test/resources/dummyfile, ) -->
+                  <span class="method-name">testApplicationFormValidation</span>
+                  <span class="parameters">(test1, test@gmail, , src/test/resources/dummyfile, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplicationFormValidation(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test)">
+                  </a> <!-- testApplicationFormValidation(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test) -->
+                  <span class="method-name">testApplicationFormValidation</span>
+                  <span class="parameters">(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-regression_suite-class-passed -->
+        </div> <!-- panel regression_suite -->
+        <div panel-name="test-xml-regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/ahmedmoustafa/Desktop/amoustafa/musala-task/musala-soft-task/src/test/resources/regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;regression suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Contactus form test cases running on chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ContactUsFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Contactus form test cases running on chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Contactus form test cases running on firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ContactUsFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Contactus form test cases running on firefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Company test cases running on chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CompanyTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Company test cases running on chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Company test cases running on firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CompanyTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Company test cases running on firefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Careers test cases running on chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CareersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Careers test cases running on chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Careers test cases running on firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CareersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Careers test cases running on firefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Display position info test cases running on chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;DisplayPostionInfoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Display position info test cases running on chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Display position info test cases running on firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;DisplayPostionInfoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Display position info test cases running on firefox --&gt;
+&lt;/suite&gt; &lt;!-- regression suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Contactus form test cases running on chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Contactus form test cases running on firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Company test cases running on chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Company test cases running on firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Careers test cases running on chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Careers test cases running on firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Display position info test cases running on chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Display position info test cases running on firefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_regression_suite');
+function tableData_regression_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'isFacebookUrlLoaded')
+data.setCell(0, 2, 'CompanyTest')
+data.setCell(0, 3, 8527);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'isJobMainSectionsLoaded')
+data.setCell(1, 2, 'CareersTest')
+data.setCell(1, 3, 4459);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'isFacebookUrlLoaded')
+data.setCell(2, 2, 'CompanyTest')
+data.setCell(2, 3, 4415);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'isJobMainSectionsLoaded')
+data.setCell(3, 2, 'CareersTest')
+data.setCell(3, 3, 2819);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testApplicationFormValidation')
+data.setCell(4, 2, 'CareersTest')
+data.setCell(4, 3, 2701);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testApplicationFormValidation')
+data.setCell(5, 2, 'CareersTest')
+data.setCell(5, 3, 2583);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testApplicationFormValidation')
+data.setCell(6, 2, 'CareersTest')
+data.setCell(6, 3, 2580);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testApplicationFormValidation')
+data.setCell(7, 2, 'CareersTest')
+data.setCell(7, 3, 2551);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testApplicationFormValidation')
+data.setCell(8, 2, 'CareersTest')
+data.setCell(8, 3, 2536);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testApplicationFormValidation')
+data.setCell(9, 2, 'CareersTest')
+data.setCell(9, 3, 2431);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testApplicationFormValidation')
+data.setCell(10, 2, 'CareersTest')
+data.setCell(10, 3, 2404);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testApplicationFormValidation')
+data.setCell(11, 2, 'CareersTest')
+data.setCell(11, 3, 2349);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'printSofiaLocationPositions')
+data.setCell(12, 2, 'DisplayPostionInfoTest')
+data.setCell(12, 3, 2348);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testApplicationFormValidation')
+data.setCell(13, 2, 'CareersTest')
+data.setCell(13, 3, 2235);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'printSkopjeLocationPositions')
+data.setCell(14, 2, 'DisplayPostionInfoTest')
+data.setCell(14, 3, 2146);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testApplicationFormValidation')
+data.setCell(15, 2, 'CareersTest')
+data.setCell(15, 3, 1979);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'printSofiaLocationPositions')
+data.setCell(16, 2, 'DisplayPostionInfoTest')
+data.setCell(16, 3, 1841);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testInvalidEmailAddress')
+data.setCell(17, 2, 'ContactUsFormTest')
+data.setCell(17, 3, 1780);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'printSkopjeLocationPositions')
+data.setCell(18, 2, 'DisplayPostionInfoTest')
+data.setCell(18, 3, 1529);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testInvalidEmailAddress')
+data.setCell(19, 2, 'ContactUsFormTest')
+data.setCell(19, 3, 1525);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testInvalidEmailAddress')
+data.setCell(20, 2, 'ContactUsFormTest')
+data.setCell(20, 3, 1435);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testInvalidEmailAddress')
+data.setCell(21, 2, 'ContactUsFormTest')
+data.setCell(21, 3, 1056);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testInvalidEmailAddress')
+data.setCell(22, 2, 'ContactUsFormTest')
+data.setCell(22, 3, 1047);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'isMusalaProfileImageExist')
+data.setCell(23, 2, 'CompanyTest')
+data.setCell(23, 3, 942);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testInvalidEmailAddress')
+data.setCell(24, 2, 'ContactUsFormTest')
+data.setCell(24, 3, 918);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testInvalidEmailAddress')
+data.setCell(25, 2, 'ContactUsFormTest')
+data.setCell(25, 3, 838);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testInvalidEmailAddress')
+data.setCell(26, 2, 'ContactUsFormTest')
+data.setCell(26, 3, 492);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testInvalidEmailAddress')
+data.setCell(27, 2, 'ContactUsFormTest')
+data.setCell(27, 3, 455);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testInvalidEmailAddress')
+data.setCell(28, 2, 'ContactUsFormTest')
+data.setCell(28, 3, 406);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'isMusalaProfileImageExist')
+data.setCell(29, 2, 'CompanyTest')
+data.setCell(29, 3, 39);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'isLeadershipSectionExist')
+data.setCell(30, 2, 'CompanyTest')
+data.setCell(30, 3, 31);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'isLeadershipSectionExist')
+data.setCell(31, 2, 'CompanyTest')
+data.setCell(31, 3, 26);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'isCompanyUrlLoaded')
+data.setCell(32, 2, 'CompanyTest')
+data.setCell(32, 3, 22);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'isCompanyUrlLoaded')
+data.setCell(33, 2, 'CompanyTest')
+data.setCell(33, 3, 5);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'isJoinUsUrlLoaded')
+data.setCell(34, 2, 'CareersTest')
+data.setCell(34, 3, 4);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'isJoinUsUrlLoaded')
+data.setCell(35, 2, 'CareersTest')
+data.setCell(35, 3, 3);
+window.suiteTableData['regression_suite']= { tableData: data, tableDiv: 'times-div-regression_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-regression_suite">
+              </div> <!-- times-div-regression_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CompanyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CareersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CompanyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isCompanyUrlLoaded</span>
+                <span class="method-start">11461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isLeadershipSectionExist</span>
+                <span class="method-start">11486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isFacebookUrlLoaded</span>
+                <span class="method-start">11518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isMusalaProfileImageExist</span>
+                <span class="method-start">20046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">20086 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CareersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(firefox)</span>
+                <span class="method-start">25258 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailAddress(test1, test, 00201067721442, test, test)</span>
+                <span class="method-start">86145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailAddress(test1, test, 00201067721442, test, test)</span>
+                <span class="method-start">87485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailAddress(test1, test@, 00201067721442, test, test)</span>
+                <span class="method-start">87927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailAddress(test1, test@, 00201067721442, test, test)</span>
+                <span class="method-start">88533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailAddress(test1, test@gmail, 00201067721442, test, test)</span>
+                <span class="method-start">89364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailAddress(test1, test@gmail, 00201067721442, test, test)</span>
+                <span class="method-start">90059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailAddress(test1, test.com, 00201067721442, test, test)</span>
+                <span class="method-start">90421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailAddress(test1, test.com, 00201067721442, test, test)</span>
+                <span class="method-start">90466 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CompanyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isCompanyUrlLoaded</span>
+                <span class="method-start">90686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isLeadershipSectionExist</span>
+                <span class="method-start">90692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isFacebookUrlLoaded</span>
+                <span class="method-start">90720 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ContactUsFormTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailAddress(test1, test@/gamil.com, 00201067721442, test, test)</span>
+                <span class="method-start">90960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmailAddress(test1, test@/gamil.com, 00201067721442, test, test)</span>
+                <span class="method-start">91342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">91417 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">92181 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CareersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isJoinUsUrlLoaded</span>
+                <span class="method-start">92269 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isJobMainSectionsLoaded</span>
+                <span class="method-start">92274 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CompanyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isMusalaProfileImageExist</span>
+                <span class="method-start">95137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">96080 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CareersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testApplicationFormValidation(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:)</span>
+                <span class="method-start">96734 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DisplayPostionInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome)</span>
+                <span class="method-start">97220 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CareersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testApplicationFormValidation(test1, test@, 00201067721442, , test)</span>
+                <span class="method-start">98713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testApplicationFormValidation(test1, test@gmail, , src/test/resources/dummyfile, )</span>
+                <span class="method-start">101145 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DisplayPostionInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(firefox)</span>
+                <span class="method-start">102224 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CareersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testApplicationFormValidation(test1, test.com, 00201067721442, src/test/resources/dummyfile, test)</span>
+                <span class="method-start">103550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testApplicationFormValidation(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test)</span>
+                <span class="method-start">106252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">108602 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">isJoinUsUrlLoaded</span>
+                <span class="method-start">120433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isJobMainSectionsLoaded</span>
+                <span class="method-start">120437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testApplicationFormValidation(, test@gmail.com, 00201067721442, src/test/resources/dummyfile, http:)</span>
+                <span class="method-start">123257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testApplicationFormValidation(test1, test@, 00201067721442, , test)</span>
+                <span class="method-start">125492 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testApplicationFormValidation(test1, test@gmail, , src/test/resources/dummyfile, )</span>
+                <span class="method-start">128043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testApplicationFormValidation(test1, test.com, 00201067721442, src/test/resources/dummyfile, test)</span>
+                <span class="method-start">130624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testApplicationFormValidation(test1, test@/gamil.com, 00201067721442, src/test/resources/dummyfile, test)</span>
+                <span class="method-start">133208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">135745 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DisplayPostionInfoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">printSofiaLocationPositions</span>
+                <span class="method-start">185083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">printNewline</span>
+                <span class="method-start">187432 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">printSkopjeLocationPositions</span>
+                <span class="method-start">187433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printSofiaLocationPositions</span>
+                <span class="method-start">188434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">189580 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">printNewline</span>
+                <span class="method-start">189580 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">printNewline</span>
+                <span class="method-start">190275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">printSkopjeLocationPositions</span>
+                <span class="method-start">190276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">printNewline</span>
+                <span class="method-start">191805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">191806 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression suite" parallel="tests" >
+  <test name="Contactus form test cases running on chrome">
+    <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="ContactUsFormTest"/>
+    </classes>
+  </test>
+  <test name="Contactus form test cases running on firefox">
+    <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="ContactUsFormTest"/>
+    </classes>
+  </test>
+    <test name="Company test cases running on chrome">
+    <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="CompanyTest"></class>
+    </classes>
+  </test>
+    <test name="Company test cases running on firefox">
+    <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="CompanyTest"></class>
+    </classes>
+  </test>
+  <test name="Careers test cases running on chrome">
+    <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="CareersTest"></class>
+    </classes>
+  </test>
+    <test name="Careers test cases running on firefox">
+    <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="CareersTest"></class>
+    </classes>
+  </test>
+  <test name="Display position info test cases running on chrome">
+    <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="DisplayPostionInfoTest"></class>
+    </classes>
+  </test>
+  <test name="Display position info test cases running on firefox">
+    <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="DisplayPostionInfoTest"></class>
+    </classes>
+  </test>
+</suite> 
