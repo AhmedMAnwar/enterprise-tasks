@@ -54,4 +54,4 @@ _________________
 Reports:
 _________________
 
-- Go to report -> you will find two file reports
+- Go to report -> you will find two file reports. You can access the report directly from this link https://htmlpreview.github.io/?https://github.com/AhmedMAnwar/musala-soft-task/blob/main/report/emailable-report.html
